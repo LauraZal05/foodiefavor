@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+nav .container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+
+    .navbar-brand {
+        font-family: "DM Serif Text", serif;
+        color: hsl(0, 70%, 48%);
+        padding-right: 20px;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 25px;
+    }
+
+    a {
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        color: hsl(0, 0%, 49%);
+    }
+}
+
+li .nav-item {
+    .item {
+        color: hsl(0, 70%, 48%);
+        font-weight: 700;
+        font-style: normal;
+
+    }
+}
+
+main .container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    margin-top: -100px;
+
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(230, 202, 168);
+    border-radius: 15px;
+}
+
+#title {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+
+    .box1 {
+        width: 30%;
+        height: 300px;
+        background-color: hsl(0, 70%, 48%);
+        border-radius: 15px;
+    }
+
+    .box2 {
+        width: 30%;
+        height: 300px;
+        background-color: hsl(73, 50%, 35%);
+        border-radius: 15px;
+    }
+
+    .box3 {
+        width: 30%;
+        height: 300px;
+        background-color: hsl(44, 66%, 40%);
+        border-radius: 15px;
+    }
+}
+
+.footer {
+    width: 100%;
+    height:40px;
+    background-color: hsl(0, 70%, 48%);
+    
+}
